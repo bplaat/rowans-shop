@@ -1,0 +1,53 @@
+body {
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    background-color: #111;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(https://source.unsplash.com/featured?nature);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(90%) brightness(40%);
+}
+
+.header-title {
+    font-size: 10vw;
+    font-weight: normal;
+}
+
+.header-title-special {
+    font-weight: bold;
+    background-color: #fff;
+    color: #111;
+    margin-left: 4px;
+    padding: 0 12px;
+}
+
+@media (min-width: 1024px) {
+    .header-title {
+        font-size: 6vw;
+    }
+}

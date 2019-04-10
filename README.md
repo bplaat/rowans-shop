@@ -1,2 +1,2 @@
-# rowans-shop
+# bplaat/rowans-shop
 The shop for the rowans site
