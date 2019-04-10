@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://rowans-shop.netlify.com/* https://shop.rowans.ml/:splat 301!
